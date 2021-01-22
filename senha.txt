@@ -1,0 +1,2 @@
+userdb=sammy
+passdb=sammy123
