@@ -56,7 +56,7 @@ if [ $VAR1 = "-revoke" ]; then
 
     echo -e "\nScript sendo execudato em  $DB...\n"
     echo
-    mysql -u $userdb -p$passdb -e "$VA2 FROM '$USER'@'$HOST'" $DB
+    mysql -u $userdb -p$passdb -e "$VAR2 FROM '$USER'@'$HOST'" $DB
     mysql -u $userdb -p$passdb -e "flush privileges" $DB
 
 
